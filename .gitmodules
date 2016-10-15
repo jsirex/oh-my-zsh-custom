@@ -1,0 +1,3 @@
+[submodule "plugins/berkshelf"]
+	path = plugins/berkshelf
+	url = https://github.com/berkshelf/berkshelf-zsh-plugin.git
