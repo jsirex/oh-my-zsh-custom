@@ -1,5 +1,5 @@
 # -*- mode: shell-script -*-
-ZSH_THEME="bira"
+ZSH_THEME="dallas"
 COMPLETION_WAITING_DOTS="true"
 DISABLE_UNTRACKED_FILES_DIRTY="true"
 
