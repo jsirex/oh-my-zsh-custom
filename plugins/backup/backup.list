@@ -1,0 +1,24 @@
+/dev
+/home/sirex/.TelegramDesktop
+/home/sirex/.berkshelf
+/home/sirex/.bundle
+/home/sirex/.cache
+/home/sirex/.config/chromium
+/home/sirex/.local/share/Trash
+/home/sirex/.m2
+/home/sirex/.steam
+/home/sirex/.thumbnails
+/home/sirex/.torrents
+/home/sirex/.vagrant.d/boxes
+/home/sirex/VirtualBox VMs
+/home/sirex/proj
+/lost+found
+/media
+/mnt
+/proc
+/run
+/sys
+/tmp
+/usr/local/games/itg
+/var/cache
+/var/lib/docker
