@@ -1,3 +1,6 @@
 [submodule "plugins/berkshelf"]
 	path = plugins/berkshelf
 	url = https://github.com/berkshelf/berkshelf-zsh-plugin.git
+[submodule "plugins/zsh-autosuggestions"]
+	path = plugins/zsh-autosuggestions
+	url = https://github.com/zsh-users/zsh-autosuggestions.git
