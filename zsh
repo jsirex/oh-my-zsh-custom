@@ -1,6 +1,5 @@
 # -*- mode: shell-script -*-
 ZSH_THEME="fino-time"
-ZSH_THEME="powerlevel10k/powerlevel10k"
 
 COMPLETION_WAITING_DOTS="false"
 DISABLE_UNTRACKED_FILES_DIRTY="true"
@@ -13,4 +12,4 @@ UNBUNDLED_COMMANDS=(
     knife
 )
 
-plugins=(aws backup dirpersist git extract knife knife_ssh mercurial mvn vagrant bundler gem rake rvm thor debian sudo kitchen docker-compose emacs power-save terraform systemd virtualenv zsh-autosuggestions)
+plugins=(dirpersist git extract mvn vagrant bundler gem rake rvm debian sudo docker-compose terraform systemd virtualenv)
