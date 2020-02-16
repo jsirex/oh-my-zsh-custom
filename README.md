@@ -1,5 +1,11 @@
-Custom files for zsh
+# Overview
 
-1. Clone the repo into $ZSH/custom
-2. Update $ZSH/custom/zsh
+This is customization for the `oh-my-zsh`.
 
+Set `ZSH_CUSTOM` in `.zshrc` to this repo, for example:
+
+``` shell
+..
+ZSH_CUSTOM=$HOME/proj/jsirex/oh-my-zsh-custom
+..
+```
