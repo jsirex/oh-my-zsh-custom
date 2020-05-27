@@ -19,7 +19,12 @@ backup-my-pc() {
     echo "Target directory: $TARGET_DIR"
     echo "Target file: $FULL_BACKUP_FILE_NAME"
 
-    sudo ionice tar --exclude-from=$(readlink -f $EXCLUDE_FILE) --exclude=$FULL_BACKUP_FILE_NAME -cvpj --one-file-system / | gpg -c -o $FULL_BACKUP_FILE_NAME
+    sudo ionice tar \
+         --exclude-from=$(readlink -f $EXCLUDE_FILE) \
+         --exclude-vcs-ignores \
+         --exclude-vcs \
+         --exclude=$FULL_BACKUP_FILE_NAME \
+         -cvpj --one-file-system / | gpg -c -o $FULL_BACKUP_FILE_NAME
 
     echo "Ended at `date`"
 }
